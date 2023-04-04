@@ -9,7 +9,7 @@ from sklearn import linear_model
 #set default figure size
 mpl.rcParams['figure.figsize'] = (12, 8)
 
-data = pd.read_csv('Lab2_dataset.csv')
+data = pd.read_csv('sample_dataset.csv')
 data_train = data.loc[0:11,['X', 'y']]
 data_test = data.loc[0:20,['Xtest', 'ytest']]
 data_val = data.loc[0:20,['Xval', 'yval']]
