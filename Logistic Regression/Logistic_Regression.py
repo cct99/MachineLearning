@@ -27,7 +27,7 @@ def plotData(data, label_x, label_y, label_pos, label_neg, axes=None):
     axes.legend(frameon= True, fancybox = True);
 
 #Call plotData function to visualize the scatter plot
-data = loaddata('Dataset-2.txt', ',')
+data = loaddata('sample_dataset.txt', ',')
 
 plotData(data, 'Test 1 score', 'Test 2 score', 'Accepted', 'Rejected')
 
