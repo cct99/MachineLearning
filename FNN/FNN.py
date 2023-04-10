@@ -1,3 +1,5 @@
+### In this assignment, we use the MNIST dataset from Keras so we do not need any files to load dataset. 
+
 # Import the Libraries
 # TensorFlow and tf.keras
 import tensorflow as tf
@@ -27,7 +29,6 @@ from keras.utils import to_categorical
 from keras.utils import np_utils
 from sklearn.metrics import accuracy_score
 
-# In this assignment, we use the MNIST dataset from Keras. 
 (X_train, y_train), (X_test, y_test) = mnist.load_data() # Load the training data
 
 # Obtain the dimensions and the number of samples
