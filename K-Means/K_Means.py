@@ -8,7 +8,7 @@ from scipy.io import loadmat
 
 # Here we use loadmat to process the dataset. 
 # Since it returns a dict, we use X=data['X'] so that we can access the features of the dataset.
-data = loadmat('Lab5_Data.mat') # Load the data 
+data = loadmat('sample_dataset.mat') # Load the data 
 X = data['X']
 
 
