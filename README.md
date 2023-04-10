@@ -1,6 +1,6 @@
 # Machine Learning Algorithms
 
-This project is a collection of popular machine learning algorithms implemented in Python. The algorithms included are:
+This project is a collection of popular machine learning algorithms implemented in Python. The algorithms included are
 
 Feedforward Neural Network (FNN)
 K-Means clustering
