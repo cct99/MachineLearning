@@ -1,3 +1,5 @@
+### In this assignment, we use the 'Boston Housing' dataset from Keras so we do not need any files to load dataset. 
+
 import matplotlib.pyplot as plt
 from sklearn import datasets
 import numpy as np
