@@ -1,3 +1,6 @@
+### In this assignment, we use the MNIST dataset from Keras so we do not need any files to load dataset. 
+
+# Importing necessary libraries
 from keras.layers import Input, Dense
 from keras.models import Model
 from keras.datasets import mnist
